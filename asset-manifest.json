@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/airapp/static/css/main.e46b83ac.css",
+    "main.js": "/airapp/static/js/main.35c95f53.js",
+    "static/js/787.e836da5c.chunk.js": "/airapp/static/js/787.e836da5c.chunk.js",
+    "index.html": "/airapp/index.html",
+    "main.e46b83ac.css.map": "/airapp/static/css/main.e46b83ac.css.map",
+    "main.35c95f53.js.map": "/airapp/static/js/main.35c95f53.js.map",
+    "787.e836da5c.chunk.js.map": "/airapp/static/js/787.e836da5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e46b83ac.css",
+    "static/js/main.35c95f53.js"
+  ]
+}
