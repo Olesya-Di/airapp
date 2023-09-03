@@ -51,6 +51,11 @@
   gap: 5px;
 }
 
+.clockP {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
 .hrInfo {
   border: 1px solid #f1f1f1;
   margin: 0;

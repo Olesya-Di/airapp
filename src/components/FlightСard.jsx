@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineClockCircle } from "react-icons/ai";
 
 const FlightСard = ({
   flight,
@@ -89,7 +90,7 @@ const FlightСard = ({
             {formatedTime(departureDate0)}{" "}
             <span className="colorBlue">{formatedDate(departureDate0)}</span>
           </p>
-          <p>{formatedTimeTravelDuration(travelDuration0)}</p>
+          <p className="clockP"><AiOutlineClockCircle/> {formatedTimeTravelDuration(travelDuration0)}</p>
           <p>
             <span className="colorBlue">{formatedDate(arrivalDate0)}</span>{" "}
             {formatedTime(arrivalDate0)}
@@ -125,7 +126,7 @@ const FlightСard = ({
             {formatedTime(departureDate1)}{" "}
             <span className="colorBlue">{formatedDate(departureDate1)}</span>
           </p>
-          <p>{formatedTimeTravelDuration(travelDuration1)}</p>
+          <p className="clockP"><AiOutlineClockCircle/> {formatedTimeTravelDuration(travelDuration1)}</p>
           <p>
             <span className="colorBlue">{formatedDate(arrivalDate1)}</span>{" "}
             {formatedTime(arrivalDate1)}
